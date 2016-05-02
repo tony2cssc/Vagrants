@@ -1,0 +1,2 @@
+<script>alert('会员卡号已经升位,请用5位卡号重新登录系统!');window.location="index.asp"</script>
+

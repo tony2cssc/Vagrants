@@ -1,0 +1,23 @@
+*
+
+!.gitignore
+!Vagrantfile
+!README*
+!source.rb
+!install.sh
+
+# Do not ignore provisioning scripts
+# except those beginning by an underscore
+!scripts
+!scripts/*
+
+!config
+!config/*
+
+!data
+!data/*
+
+!bin
+!bin/*
+
+.vagrant

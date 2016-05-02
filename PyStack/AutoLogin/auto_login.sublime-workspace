@@ -1,0 +1,718 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"utf",
+				"utf-8"
+			],
+			[
+				"dits",
+				"digits	statement"
+			],
+			[
+				"cook",
+				"cookielib	module"
+			],
+			[
+				"pro",
+				"provision"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "test.py",
+			"settings":
+			{
+				"buffer_size": 673,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "pyocr_test.py",
+			"settings":
+			{
+				"buffer_size": 1237,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "n_yushou.html",
+			"settings":
+			{
+				"buffer_size": 63490,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "feixuelixm.py",
+			"settings":
+			{
+				"buffer_size": 5220,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "jquery.py",
+			"settings":
+			{
+				"buffer_size": 719,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "auto_login.py",
+			"settings":
+			{
+				"buffer_size": 3213,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "rel_ip.txt",
+			"settings":
+			{
+				"buffer_size": 78,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "产品订购\nhttp://www.shbrightenplant.cn/n_yushou.asp\n\n时间不对\nhttp://www.shbrightenplant.cn/ys_cs.asp\n\nhttp://www.shbrightenplant.cn/n_yushou.asp?fl=sd\n\nhttp://www.shbrightenplant.cn/n_yushou.asp?fl=sd&offset=60\n\n<td align=\"center\" nowrap=\"\">\n    <input name=\"bm\" id=\"bm\" value=\"4140\" type=\"hidden\">\n    <input name=\"pm\" id=\"pm\" value=\"‘森林火焰’网纹草\" type=\"hidden\">\n    <input name=\"gg\" id=\"gg\" value=\"A80\" type=\"hidden\">\n    <input name=\"dw\" id=\"dw\" value=\"盆\" type=\"hidden\">\n    <input name=\"dj\" id=\"dj\" value=\"8\" type=\"hidden\">\n    <input name=\"js\" id=\"js\" value=\"1\" type=\"hidden\">\n    <input name=\"bzl\" id=\"bzl\" value=\"42\" type=\"hidden\">\n    <input name=\"kssl\" id=\"kssl\" value=\"0\" type=\"hidden\">\n    <input name=\"yskz\" id=\"yskz\" value=\"no\" type=\"hidden\">\n    <input name=\"sl\" class=\"wbk\" id=\"sl\" size=\"3\" type=\"text\">盆</td>\n\n<input name=\"ys0\" src=\"_img/dg.gif\" onclick=\"ysw()\" align=\"bottom\" height=\"14\" type=\"image\" width=\"29\">\n\n<form name=\"dgfm1\" method=\"post\" action=\"n_ddcl_x.asp\" onsubmit=\"scrollTop.value = document.body.scrollTop\" target=\"yswin\"></form>\n\n<script language=\"JavaScript\" type=\"text/JavaScript\">\n<!--\n　　var yswin=\"\"; \n　　function ysw() {\n        if(yswin) {\n            if(!yswin.closed)\n                yswin.close();\n        } \n　　yswin = window.open('','yswin','toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=no,copyhistory=yes,width=200,height=100,left=412,top=284'); \n    } \n\n    var tcck=\"\"; \n    var ckurl=\"\";\n　　function popck(ckurl) { \n　　if(tcck) { \n　　if(!tcck.closed) tcck.close(); } \n　　tcck = window.open(ckurl,'tcck','toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=no,copyhistory=yes,width=640,height=400,left=0,top=0'); \n    }\n//-->\n</script>",
+			"settings":
+			{
+				"buffer_size": 1737,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"for",
+				"Tag: Auto-Format Tags on Document"
+			],
+			[
+				"ssh",
+				"Set Syntax: HTML"
+			],
+			[
+				"asel",
+				"Anaconda: Show error list"
+			],
+			[
+				"el",
+				"Anaconda: Show error list"
+			],
+			[
+				"rp",
+				"Package Control: Remove Package"
+			],
+			[
+				"ip",
+				"Package Control: Install Package"
+			],
+			[
+				"linter",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"lin",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"slinter",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"mcc",
+				"Anaconda: McCabe complexity check"
+			],
+			[
+				"pep",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"pep8",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"ssp",
+				"Set Syntax: Python"
+			],
+			[
+				"form",
+				"Tag: Auto-Format Tags on Document"
+			],
+			[
+				"fro",
+				"Format CSS: Compact"
+			],
+			[
+				"aut",
+				"Tag: Auto-Format Tags on Document"
+			],
+			[
+				"pi",
+				"Package Control: Install Package"
+			],
+			[
+				"auf",
+				"Tag: Auto-Format Tags on Document"
+			],
+			[
+				"autof",
+				"Tag: Auto-Format Tags on Document"
+			],
+			[
+				"format",
+				"Tag: Auto-Format Tags on Document"
+			],
+			[
+				"preview",
+				"OmniMarkupPreviewer: Preview Current Markup in Browser"
+			],
+			[
+				"prev",
+				"OmniMarkupPreviewer: Empty Cache"
+			],
+			[
+				"setsrti",
+				"Set Syntax: reStructuredText Improved"
+			],
+			[
+				"rei",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"setsh",
+				"Set Syntax: HTML"
+			],
+			[
+				"prepv",
+				"OmniMarkupPreviewer: Preview Current Markup in Browser"
+			],
+			[
+				"ssrs",
+				"Set Syntax: reStructuredText Improved"
+			],
+			[
+				"pcrp",
+				"Package Control: Remove Package"
+			],
+			[
+				"set sr",
+				"Set Syntax: Ruby"
+			],
+			[
+				"up",
+				"Package Control: Upgrade Package"
+			]
+		],
+		"width": 418.0
+	},
+	"console":
+	{
+		"height": 258.0,
+		"history":
+		[
+			"import urllib.request,os; pr='Preferences.sublime-settings'; ip='ignored_packages'; n='Package Control'; s=sublime.load_settings(pr); ig=s.get(ip); ig.append(n); s.set(ip,ig); sublime.save_settings('Preferences.sublime-settings'); pf=n+'.sublime-package'; urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); by=urllib.request.urlopen('https://packagecontrol.io/'+pf.replace(' ','%20')).read(); open(os.path.join(sublime.installed_packages_path(),pf),'wb').write(by); ig.remove(n); s.set(ip,ig); sublime.save_settings(pr); print('Package Control: 3.0.0 upgrade successful!')",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/MyData/DevSpace/Vagrants/PyStack/AutoLogin"
+	],
+	"file_history":
+	[
+		"/C/Users/jigu/Downloads/1.7.2_SHA256SUMS",
+		"/C/MyData/5. Others/Vagrants/PyStack/AutoLogin/n_yushou.asp",
+		"/C/MyData/5. Others/Vagrants/PyStack/AutoLogin/rel_ip.txt",
+		"/C/MyData/5. Others/Tools/SublimeText3/Data/Packages/User/Anaconda.sublime-settings",
+		"/C/MyData/5. Others/Tools/SublimeText3/Data/Packages/Anaconda/Anaconda.sublime-settings",
+		"/C/MyData/5. Others/Vagrants/PyStack/AutoLogin/auto_login.sublime-project",
+		"/C/MyData/5. Others/Projects/AutoLogin/auto_login.sublime-project",
+		"/C/MyData/5. Others/Tools/SublimeText3/Data/Packages/User/Python Django.sublime-settings",
+		"/C/MyData/5. Others/Tools/SublimeText3/Data/Packages/User/SublimeLinter.sublime-settings",
+		"/C/MyData/5. Others/Tools/SublimeText3/Data/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/C/MyData/5. Others/Projects/AutoLogin/auto_login.py",
+		"/C/MyData/5. Others/Tools/SublimeText3/Data/Packages/SublimeLinter/Default (Windows).sublime-keymap",
+		"/C/MyData/5. Others/Tools/SublimeText3/Data/Packages/Default/Preferences.sublime-settings",
+		"/C/MyData/5. Others/Tools/SublimeText3/Data/Packages/User/Preferences.sublime-settings",
+		"/C/MyData/5. Others/Vagrants/PyStack/test.py",
+		"/C/MyData/5. Others/Vagrants/PyStack/pyocr_test.py",
+		"/C/MyData/5. Others/Vagrants/PyStack/bootstrap.sh",
+		"/C/MyData/5. Others/Vagrants/PyStack/tesseract-ocr/README",
+		"/C/Users/jigu/Desktop/分享.txt",
+		"/C/MyData/5. Others/Vagrants/PyStack/Vagrantfile",
+		"/C/MyData/5. Others/Vagrants/PyStack/set_proxy.sh",
+		"/C/MyData/3. Personal/遇·花园/商品信息.html",
+		"/C/MyData/3. Personal/遇·花园/商品信息-改.html",
+		"/C/Users/jigu/Desktop/Untitled-1.html",
+		"/C/MyData/5. Others/Tools/SublimeText3/Data/Packages/SublimeREPL/SublimeREPL.sublime-settings",
+		"/C/MyData/5. Others/Tools/SublimeText3/Data/Packages/Package Control/Package Control.sublime-settings",
+		"/C/MyData/5. Others/Tools/SublimeText3/Data/Packages/User/Package Control.sublime-settings",
+		"/C/MyData/5. Others/Tools/SublimeText3/Data/Packages/Terminal/Terminal.sublime-settings",
+		"/C/MyData/5. Others/Tools/SublimeText3/Data/Packages/Terminal/Default (Windows).sublime-keymap",
+		"/C/MyData/5. Others/Tools/SublimeText3/Data/Packages/User/Base File.sublime-settings",
+		"/C/MyData/5. Others/Tools/SublimeText3/Data/Packages/DocBlockr/Base File.sublime-settings",
+		"/C/MyData/5. Others/Vagrants/DockerHost/Vagrantfile",
+		"/C/temp/adwcc64/Setup.cmd",
+		"/C/MyData/5. Others/Vagrants/PyStack/npm.txt",
+		"/C/MyData/5. Others/Tools/SublimeText3/Data/Packages/User/Default (Windows).sublime-keymap",
+		"/C/MyData/5. Others/Tools/SublimeText3/Data/Packages/User/Tag Package.sublime-settings",
+		"/C/Users/jigu/Desktop/title.rst",
+		"/C/MyData/5. Others/Tools/SublimeText3/Data/Packages/Tag/Tag Package.sublime-settings",
+		"/C/MyData/5. Others/Vagrants/taiga-scripts/taiga-scripts/scripts/setup-nginx.sh",
+		"/C/MyData/5. Others/Vagrants/taiga-scripts/taiga-scripts/scripts/setup-backend.sh",
+		"/C/MyData/5. Others/Vagrants/taiga-scripts/taiga-scripts/scripts/setup-buildessential.sh",
+		"/C/MyData/5. Others/Vagrants/taiga-scripts/taiga-scripts/scripts/setup-apt.sh",
+		"/C/MyData/5. Others/Vagrants/taiga-scripts/taiga-scripts/scripts/setup-circus.sh",
+		"/C/MyData/5. Others/Vagrants/taiga-scripts/taiga-scripts/scripts/setup-frontend.sh",
+		"/C/MyData/5. Others/Vagrants/taiga-scripts/taiga-scripts/scripts/setup-python.sh",
+		"/C/MyData/5. Others/Vagrants/taiga-scripts/taiga-scripts/scripts/setup-postgresql.sh",
+		"/C/MyData/5. Others/Vagrants/taiga-scripts/taiga-scripts/scripts/setup-config.sh",
+		"/C/MyData/5. Others/Vagrants/taiga-scripts/Vagrantfile",
+		"/C/MyData/5. Others/Vagrants/taiga-vagrant/Vagrantfile",
+		"/C/MyData/5. Others/Vagrants/taiga-vagrant/scripts/provision.sh",
+		"/C/MyData/5. Others/Vagrants/PyStack/taiga-back/settings/development.py",
+		"/C/MyData/5. Others/Vagrants/PyStack/taiga-back/settings/local.py",
+		"/C/MyData/5. Others/Vagrants/PyStack/taiga-front/npm-debug.log",
+		"/C/MyData/5. Others/Vagrants/PyStack/taiga-front/package.json",
+		"/C/MyData/5. Others/Vagrants/taiga-vagrant/source.rb",
+		"/C/MyData/5. Others/Vagrants/PyStack/taiga-back/settings/common.py",
+		"/C/MyData/5. Others/Vagrants/PyStack/taiga-back/settings/local.py.example",
+		"/C/MyData/5. Others/Vagrants/PyStack/taiga-back/taiga/base/apps.py",
+		"/C/MyData/5. Others/Vagrants/PyStack/taiga-back/result",
+		"/C/MyData/5. Others/Vagrants/PyStack/taiga-back/settings/__init__.py",
+		"/C/MyData/5. Others/Vagrants/PyStack/taiga-back/taiga/feedback/migrations/0001_initial.py",
+		"/C/MyData/5. Others/Vagrants/PyStack/taiga-back/requirements.txt",
+		"/C/MyData/5. Others/Vagrants/PyStack/taiga-back/requirements-devel.txt",
+		"/C/Users/jigu/AppData/Roaming/JetBrains/PermanentUserId",
+		"/C/Users/jigu/Desktop/11.reg",
+		"/C/Users/jigu/Downloads/python-3.4.2.amd64.msi.asc",
+		"/D/Vagrants/DockerHost/Vagrantfile",
+		"/D/Vagrants/docker/Vagrantfile",
+		"/D/Vagrants/DockerHost/inspect.json",
+		"/D/Vagrants/docker/docker/Vagrantfile",
+		"/D/Vagrants/DockerHost/inspect.txt",
+		"/D/Vagrants/docker/Dockerfile",
+		"/D/Vagrants/PyStack/bootstrap.sh",
+		"/D/Vagrants/PyStack/Vagrantfile",
+		"/D/Vagrants/ubuntu-trusty64/Vagrantfile",
+		"/D/360云盘/5. Others/Tools/SublimeText3/Data/Packages/User/Preferences.sublime-settings",
+		"/D/360云盘/5. Others/Tools/SublimeText3/Data/Packages/RestructuredText Improved/README.rst",
+		"/D/360云盘/5. Others/Tools/SublimeText3/Data/Packages/OmniMarkupPreviewer/Default (Windows).sublime-keymap",
+		"/D/360云盘/5. Others/Tools/SublimeText3/Data/Packages/RestructuredText Improved/demo.rst",
+		"/D/to_upload/win7-sp1-64bit-raw.zip.md5",
+		"/D/Vagrants/PyStack/sources.list",
+		"/D/Vagrants/PyStack/.vagrant/machines/default/virtualbox/action_set_name",
+		"/D/360云盘/5. Others/Tools/SublimeText3/Data/Packages/User/Package Control.sublime-settings",
+		"/D/快盘/Tools/SublimeText3/Data/Packages/User/Preferences.sublime-settings",
+		"/D/快盘/Tools/SublimeText3/Data/Packages/User/Package Control.sublime-settings",
+		"/C/Tools/SublimeText3/Data/Packages/User/Preferences.sublime-settings",
+		"/C/Tools/SublimeText3/Data/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Tools/SublimeText3/Data/Packages/User/Package Control.sublime-settings"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"list_all",
+			"‘大火焰’网纹草",
+			"n_yushou",
+			"定购",
+			"6228480030074708519 ",
+			"httpsHandler",
+			"LWP",
+			"theme",
+			"python",
+			"open",
+			"taobaocdn",
+			"log",
+			"8080",
+			"GITHUB",
+			"vagrant",
+			"Office",
+			"virtualbox"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 7,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "test.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 673,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "pyocr_test.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1237,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								32,
+								22
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "n_yushou.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 63490,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								14587,
+								14587
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 6787.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "feixuelixm.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5220,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								134,
+								125
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 456.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "jquery.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 719,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								509,
+								509
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "auto_login.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3213,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2920,
+								2920
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1397.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "rel_ip.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 78,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1737,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								93,
+								93
+							],
+							[
+								203,
+								145
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 37.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.anaconda_documentation":
+	{
+		"height": 126.0
+	},
+	"output.exec":
+	{
+		"height": 126.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "auto_login.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 198.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

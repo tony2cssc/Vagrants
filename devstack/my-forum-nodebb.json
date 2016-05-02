@@ -1,0 +1,197 @@
+[
+    {
+        "Id": "b4ade8b8880d162dd6b3b437163ed323c5a0052b053922025ec004334306de2a",
+        "Created": "2016-03-30T15:50:46.091368116Z",
+        "Path": "node",
+        "Args": [
+            "app.js"
+        ],
+        "State": {
+            "Status": "exited",
+            "Running": false,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 0,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2016-03-30T16:22:06.481629873Z",
+            "FinishedAt": "2016-03-30T16:39:29.615929355Z"
+        },
+        "Image": "sha256:66264dc995635b4c4434fff1b1a065d6ce8adbde94b92b2fdc8455d859640fca",
+        "ResolvConfPath": "/var/lib/docker/containers/b4ade8b8880d162dd6b3b437163ed323c5a0052b053922025ec004334306de2a/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/b4ade8b8880d162dd6b3b437163ed323c5a0052b053922025ec004334306de2a/hostname",
+        "HostsPath": "/var/lib/docker/containers/b4ade8b8880d162dd6b3b437163ed323c5a0052b053922025ec004334306de2a/hosts",
+        "LogPath": "/var/lib/docker/containers/b4ade8b8880d162dd6b3b437163ed323c5a0052b053922025ec004334306de2a/b4ade8b8880d162dd6b3b437163ed323c5a0052b053922025ec004334306de2a-json.log",
+        "Name": "/my-forum-nodebb",
+        "RestartCount": 0,
+        "Driver": "aufs",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "",
+        "ExecIDs": null,
+        "HostConfig": {
+            "Binds": null,
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {}
+            },
+            "NetworkMode": "default",
+            "PortBindings": {
+                "443/tcp": [
+                    {
+                        "HostIp": "",
+                        "HostPort": "443"
+                    }
+                ],
+                "4567/tcp": [
+                    {
+                        "HostIp": "",
+                        "HostPort": "4567"
+                    }
+                ],
+                "80/tcp": [
+                    {
+                        "HostIp": "",
+                        "HostPort": "80"
+                    }
+                ]
+            },
+            "RestartPolicy": {
+                "Name": "no",
+                "MaximumRetryCount": 0
+            },
+            "VolumeDriver": "",
+            "VolumesFrom": null,
+            "CapAdd": null,
+            "CapDrop": null,
+            "Dns": [],
+            "DnsOptions": [],
+            "DnsSearch": [],
+            "ExtraHosts": null,
+            "GroupAdd": null,
+            "IpcMode": "",
+            "Links": [
+                "/my-forum-redis:/my-forum-nodebb/redis"
+            ],
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": false,
+            "PublishAllPorts": true,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": null,
+            "UTSMode": "",
+            "ShmSize": 67108864,
+            "ConsoleSize": [
+                0,
+                0
+            ],
+            "Isolation": "",
+            "CpuShares": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": null,
+            "BlkioDeviceReadBps": null,
+            "BlkioDeviceWriteBps": null,
+            "BlkioDeviceReadIOps": null,
+            "BlkioDeviceWriteIOps": null,
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": [],
+            "KernelMemory": 0,
+            "Memory": 0,
+            "MemoryReservation": 0,
+            "MemorySwap": 0,
+            "MemorySwappiness": -1,
+            "OomKillDisable": false,
+            "PidsLimit": 0,
+            "Ulimits": null
+        },
+        "GraphDriver": {
+            "Name": "aufs",
+            "Data": null
+        },
+        "Mounts": [
+            {
+                "Name": "ffbaff06e16ca444ba12d9c44ad60468811b63d041332d47389ee0fac630f622",
+                "Source": "/var/lib/docker/volumes/ffbaff06e16ca444ba12d9c44ad60468811b63d041332d47389ee0fac630f622/_data",
+                "Destination": "/opt/nodebb",
+                "Driver": "local",
+                "Mode": "",
+                "RW": true,
+                "Propagation": ""
+            }
+        ],
+        "Config": {
+            "Hostname": "b4ade8b8880d",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": true,
+            "AttachStdout": true,
+            "AttachStderr": true,
+            "ExposedPorts": {
+                "443/tcp": {},
+                "4567/tcp": {},
+                "80/tcp": {}
+            },
+            "Tty": true,
+            "OpenStdin": true,
+            "StdinOnce": true,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+            ],
+            "Cmd": [
+                "node",
+                "app.js"
+            ],
+            "Image": "nodebb/docker:ubuntu",
+            "Volumes": {
+                "/opt/nodebb": {}
+            },
+            "WorkingDir": "/opt/nodebb",
+            "Entrypoint": null,
+            "OnBuild": null,
+            "Labels": {},
+            "StopSignal": "SIGTERM"
+        },
+        "NetworkSettings": {
+            "Bridge": "",
+            "SandboxID": "84c9f8f0c289dd909cab7f9bbd486d5db83d44f99039618bec6821a43e13cd3f",
+            "HairpinMode": false,
+            "LinkLocalIPv6Address": "",
+            "LinkLocalIPv6PrefixLen": 0,
+            "Ports": null,
+            "SandboxKey": "/var/run/docker/netns/84c9f8f0c289",
+            "SecondaryIPAddresses": null,
+            "SecondaryIPv6Addresses": null,
+            "EndpointID": "",
+            "Gateway": "",
+            "GlobalIPv6Address": "",
+            "GlobalIPv6PrefixLen": 0,
+            "IPAddress": "",
+            "IPPrefixLen": 0,
+            "IPv6Gateway": "",
+            "MacAddress": "",
+            "Networks": {
+                "bridge": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": null,
+                    "NetworkID": "c53ad8b874e2b383f2effd307e0824d724d6ee713a046e3c2530c57fcbf1bbef",
+                    "EndpointID": "",
+                    "Gateway": "",
+                    "IPAddress": "",
+                    "IPPrefixLen": 0,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "MacAddress": ""
+                }
+            }
+        }
+    }
+]
