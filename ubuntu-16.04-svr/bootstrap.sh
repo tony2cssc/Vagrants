@@ -1,19 +1,22 @@
 #!/usr/bin/env bash
 
 # Change software source to China site
-sudo sed -i 's/http:\/\/a/http:\/\/cn.a/g' /etc/apt/sources.list
+sudo sed -i 's/http:\/\/archive.ubuntu.com/http:\/\/ftp.sjtu.edu.cn/g' /etc/apt/sources.list
 
-sudo apt-get update
-sudo apt-get dist-upgrade -y
+sudo apt update
+sudo apt dist-upgrade -y
 
 # install necessary packages
-sudo apt-get install build-essential git
+sudo apt install build-essential -y
+
+# clean unnecessary files
+sudo apt autoremove && sudo apt clean
 
 # install nvm
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.1/install.sh | bash
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.4/install.sh | bash
 
-# install nodejs stable
-# nvm install stable
+# install nodejs LTS
+nvm install --lts
  
 # install meteor
 curl https://install.meteor.com/ | sh 
