@@ -125,5 +125,3 @@ collation-server = utf8_general_ci' |  tee -a /etc/my.cnf
   # php artisan dreamfactory:setup
   # 
 end
-
-wget https://raw.githubusercontent.com/composer/getcomposer.org/e67dc80d23742dd8ad67fa63135d7f8fdf2e2fb6/web/installer -O - -q | php -- --quiet
