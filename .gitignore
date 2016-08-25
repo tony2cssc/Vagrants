@@ -48,3 +48,4 @@ Temporary Items
 *.run
 centos-7.2/.vagrant/
 data/
+.vagrant
