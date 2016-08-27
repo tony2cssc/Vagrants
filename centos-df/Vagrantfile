@@ -88,7 +88,7 @@ Vagrant.configure(2) do |config|
     pecl install mongodb
     sed -i 's/;   extension=msql\.so/extension=mongodb\.so/g' /etc/php.ini
 
-    /vagrant_data/composer_installer.sh
+    /vagrant/composer_installer.sh
     mv composer.phar /usr/local/bin/composer
 
     wget -O ~/mysql57-community-release-el7-8.noarch.rpm http://repo.mysql.com/mysql57-community-release-el7-8.noarch.rpm
@@ -103,11 +103,6 @@ innodb_stats_on_metadata = 0
 character-set-server = utf8
 collation-server = utf8_general_ci' |  tee -a /etc/my.cnf
     systemctl start mysqld
-
-    git clone https://github.com/dreamfactorysoftware/dreamfactory.git /vagrant_data/df2
-    cd /vagrant_data/df2
-    git checkout 2.3.0
-    composer install --no-dev
   SHELL
 
   # After completing this shell, you need to execute below commnad to complete the setup
@@ -122,6 +117,10 @@ collation-server = utf8_general_ci' |  tee -a /etc/my.cnf
   # mysql> quit
   # 
   # Setup Dreamfactory #
+  # git clone https://github.com/dreamfactorysoftware/dreamfactory.git ~/df2
+  # cd ~/df2
+  # git checkout 2.3.0
+  # composer install --no-dev
   # php artisan dreamfactory:setup
   # 
 end
