@@ -103,6 +103,8 @@ innodb_stats_on_metadata = 0
 character-set-server = utf8
 collation-server = utf8_general_ci' |  tee -a /etc/my.cnf
     systemctl start mysqld
+
+    yum --enablerepo=remi --enablerepo=remi-php56 -y install nginx php-fpm
   SHELL
 
   # After completing this shell, you need to execute below commnad to complete the setup
@@ -110,10 +112,12 @@ collation-server = utf8_general_ci' |  tee -a /etc/my.cnf
   # Setup DB #
   #  mysql_secure_installation
   # the default password can be get by cat /var/log/mysqld.log | grep generated
-  # $ mysql -u root 
+  # $ mysql -u root -p
+  # 授权远程访问
+  # mysql> GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'your_root_password' WITH GRANT OPTION;
   # mysql> create database dreamfactory;
   # mysql> grant all privileges on dreamfactory.* to 'df_admin'@'localhost' IDENTIFIED BY 'df_admin01';
-  # FLUSH PRIVILEGES;
+  # mysql> FLUSH PRIVILEGES;
   # mysql> quit
   # 
   # Setup Dreamfactory #
